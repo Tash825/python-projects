@@ -5,13 +5,13 @@ emojis = {'r':'🪨','s':'✂️','p':'📃'}
 
 while True:
     chosen = random.choice(choices)
-    ur_input = input('rock, paper or scissors? (r/p/s): ').lower()
+    ur_input = input('CHoose your hand: rock, paper or scissors? (r/p/s): ').lower()
     
     if ur_input not in choices:
         print("Invalid Choice")
         continue
     
-    print(f"Your chose {emojis[ur_input]}")
+    print(f"You chose {emojis[ur_input]}")
     print(f"Computer chose{emojis[chosen]}")
     
     if ur_input == chosen:
@@ -20,9 +20,9 @@ while True:
         (ur_input == 'r' and chosen == 's') or 
         (ur_input == 's' and chosen == 'p') or 
         (ur_input == 'p' and chosen == 'r')):
-            print("You Win")
+            print("You Win!")
     else:
-        print("You Lose")
+        print("You Lose!")
     Should_continue = input("Would you like to continue (y/n)").lower()
     if Should_continue == 'n':
         break
