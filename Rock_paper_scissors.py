@@ -23,6 +23,6 @@ while True:
             print("You Win!")
     else:
         print("You Lose!")
-    Should_continue = input("Would you like to continue (y/n)").lower()
+    Should_continue = input("Would you like to continue? (y/n)").lower()
     if Should_continue == 'n':
         break
