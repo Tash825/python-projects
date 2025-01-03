@@ -14,7 +14,7 @@ if answer == "left":
             print("You have come to a old hut.")
             answer = input("Will you enter or leave?").lower()
             if answer == "enter":
-                print("You found treasure inside, you win!")
+                print("You found lost treasure inside, you win!")
             elif answer == "leave":
                 print("You got stranded in forest. You lose")
             else:
