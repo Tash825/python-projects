@@ -2,8 +2,8 @@ import random
 import time
 
 operators = ["+","-","*"]
-min_op = 3
-max_op = 15
+min_op = 2
+max_op = 12
 total_problems = 10
 
 def problem():
