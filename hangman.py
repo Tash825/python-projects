@@ -1,6 +1,6 @@
 import random
 
-words = ['pikachu','beast','shadow','biker','timepass','granny']
+words = ['pikachu','beast','shadow','biker','timepass','granny','boom']
 
 chosen_word = random.choice(words)
 word_display = [ '_' for _ in chosen_word]
