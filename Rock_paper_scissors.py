@@ -1,3 +1,4 @@
+#rps
 import random
 
 choices = ('r','p','s')
